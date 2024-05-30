@@ -1,0 +1,140 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para ajustar el tamaño de las imágenes del carrusel */
+.carousel-image {
+  max-height: 400px; /* Ajusta la altura máxima */
+  width: 80%; /* Reduce el ancho de la imagen */
+  margin: 0 auto; /* Centra la imagen horizontalmente */  
+  max-width: 80%;
+  height: auto;
+}
+
+.navbar-brand img {
+  margin-right: 10px; /* Ajusta este valor según sea necesario */
+}
+
+/* Estilos para la sección principal */
+header {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+header .display-4 {
+  font-weight: 700;
+}
+
+header .lead {
+  margin-bottom: 30px;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
+
+footer h5 {
+  margin-bottom: 15px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Transiciones y animaciones */
+.nav-link.btn-primary {
+  transition: background-color 0.3s;
+}
+
+.nav-link.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para la sección de demos */
+#demos .card {
+  transition: transform 0.3s;
+}
+
+#demos .card:hover {
+  transform: scale(1.05);
+}
+
+#demos .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+#demos .card-title {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+  color: #6c757d;
+}
+
+.footer h5 {
+  color: #343a40;
+  margin-bottom: 1rem;
+}
+
+.footer .list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer .list-unstyled li {
+  margin-bottom: 0.5rem;
+}
+
+.footer .list-unstyled li a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.footer .list-unstyled li a:hover {
+  color: #343a40;
+  text-decoration: underline;
+}
+
+.footer p {
+  margin: 0;
+}
+
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: background-color 0.3s;
+}
+#back-to-top:hover {
+  background-color: #0056b3;
+}
+
